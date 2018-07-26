@@ -286,7 +286,7 @@ public class IRLExample {
 	}
 
 	public static void main(String[] args) {
-        GridWorldRunOptions chosen = GridWorldRunOptions.RunIRL;
+        GridWorldRunOptions chosen = GridWorldRunOptions.ExploreAndRecord;
         String folderToPlaybackFrom = "irl_demos";
 
         IRLExample myIRLExample = new IRLExample();
